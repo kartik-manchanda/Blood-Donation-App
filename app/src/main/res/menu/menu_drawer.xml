@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/edit_profile"
+            android:title="Edit Profile"
+            android:icon="@drawable/ic_profile_nav" />
+
+        <item
+            android:id="@+id/share"
+            android:title="Share"
+            android:icon="@drawable/ic_share"/>
+
+
+        <item
+            android:id="@+id/rate_us"
+            android:title="Rate Us"
+            android:icon="@drawable/ic_rate"/>
+
+
+        <item
+            android:id="@+id/feedback"
+            android:title="Feedback"
+            android:icon="@drawable/ic_feedback"/>
+
+
+        <item
+            android:id="@+id/about_me"
+            android:title="About Us"
+            android:icon="@drawable/ic_about"/>
+
+
+        <item
+            android:id="@+id/contact_us"
+            android:title="Contact Us"
+            android:icon="@drawable/ic_contact"/>
+
+
+        <item
+            android:id="@+id/privacy_policy"
+            android:title="Privacy Policy"
+            android:icon="@drawable/ic_privacy"/>
+
+        <item
+            android:id="@+id/logout"
+            android:title="LogOut"
+            android:icon="@drawable/ic_logout"/>
+
+    </group>
+</menu>

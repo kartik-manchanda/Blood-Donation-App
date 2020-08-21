@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".fragment.DashboardFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/txt_no_of_donors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Total Number of donors:0"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt_no_of_receivers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Total Number of receivers:0"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/ll_donor_and_receiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_donor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register as Donor"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btn_receiver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register as Receiver"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_successfully_donor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorAccent"
+        android:text="Successfully Registered as Donor"/>
+
+    <TextView
+        android:id="@+id/txt_successfully_receiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorAccent"
+        android:text="Successfully Registered as Receiver"/>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="20dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/txt_feed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Feeds"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/post_shape"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/txt_feed">
+
+                <EditText
+                    android:id="@+id/et_post"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:gravity="top|left"
+                    android:hint="Write your post here"
+                    android:inputType="textMultiLine"
+                    android:lines="6"
+                    android:overScrollMode="always"
+                    android:paddingStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical"
+                    android:scrollHorizontally="false"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/et_post"
+                    android:background="@color/colorAccent"/>
+
+                <LinearLayout
+                    android:weightSum="6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/et_post"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/btn_send_post"
+                        android:layout_weight="2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:padding="2dp"
+                        android:src="@drawable/ic_post"/>
+                    <ImageView
+                        android:id="@+id/btn_add_hospital"
+                        android:layout_weight="2"
+                        android:layout_width="match_parent"
+                        android:padding="2dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/ic_add"/>
+                    <ImageView
+                        android:id="@+id/btn_add_blood_group"
+                        android:layout_weight="2"
+                        android:layout_width="match_parent"
+                        android:padding="2dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/blood_group"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posts:"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+
+</LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

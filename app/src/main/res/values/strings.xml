@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Blood Donation</string>
+    <string name="preference_file_name">User Details</string>
+
+
+    <string name="open_drwaer">Open Drawer</string>
+    <string name="close_drwaer">Close Drawer</string>
+
+    <string name="FragmentOne">A blood donation occurs when a person voluntarily has blood drawn and used for transfusions and/or made into biopharmaceutical medications by a process called fractionation (separation of whole-blood components). Donation may be of whole blood, or of specific components directly (the latter called apheresis). Blood banks often participate in the collection process as well as the procedures that follow it.</string>
+    <string name="FragmentTwo">Blood donations are divided into groups based on who will receive the collected blood. An allogeneic (also called homologous) donation is when a donor gives blood for storage at a blood bank for transfusion to an unknown recipient. A directed donation is when a person, often a family member, donates blood for transfusion to a specific individual. Directed donations are relatively rare when an established supply exists. A replacement donor donation is a hybrid of the two and is common in developing countries such as Ghana. In this case, a friend or family member of the recipient donates blood to replace the stored blood used in a transfusion, ensuring a consistent supply. When a person has blood stored that will be transfused back to the donor at a later date, usually after surgery, that is called an autologous donation. Blood that is used to make medications can be made from allogeneic donations or from donations exclusively used for manufacturing.</string>
+    <string name="FragmentThree">The limited storage time means that it is difficult to have a stockpile of blood to prepare for a disaster. The subject was discussed at length after the September 11 attacks in the United States, and the consensus was that collecting during a disaster was impractical and that efforts should be focused on maintaining an adequate supply at all times. Blood centers in the U.S. often have difficulty maintaining even a three-day supply for routine transfusion demands.</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Link1"><a href="https://en.wikipedia.org/wiki/Blood#:~:text=Blood%20is%20a%20body%20fluid,cells%20suspended%20in%20blood%20plasma.">Resource Link 1</a></string>
+    <string name="Link2"><a href="https://www.webmd.com/heart/anatomy-picture-of-blood#1">Resource Link 2</a></string>
+    <string name="Link3"><a href="https://en.wikipedia.org/wiki/Blood_bank">Resource Link 3</a></string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="faq1">What is blood ?</string>
+    <string name="ans1">Blood is a body fluid in humans and other animals that delivers necessary substances such as nutrients and oxygen to the cells and transports metabolic waste products away from those same cells. In vertebrates, it is composed of blood cells suspended in blood plasma.</string>
+
+    <string name="faq2">Why should I donate blood ?</string>
+    <string name="ans2">You have to donate blood yourself to find out. By Blood donation you greatly contribute towards a healthier, happier society by making available safe blood. Any one may need blood at any time may be ourselves or our near  ones. You also benefit in other ways by donating blood as it reduces the chances of ischemic heart diseases.</string>
+
+    <string name="faq3">Are their any side effects of Blood donations ?</string>
+    <string name="ans3">There are no side effects of blood donation. The Blood bank staff ensures that your blood donation is a good experience as far as possible to enable you to become a repeat and a regular blood donor. There are a number of people who have donated   more tha25–100 times in their life time.</string>
+
+    <string name="faq4">What are the eligibility criteria of blood donation ?</string>
+    <string name="ans4">The eligible donors  should be  between 18 to 60 years of age, having a healthy pattern of lifestyle  The body weight should be above 45 kgs.  The haemoglobin should be above 12.5 g%.</string>
+
+    <string name="faq5">Can I get any disease like AIDS or Hepatitis or any other disease by Blood donation ?</string>
+    <string name="ans5">As only sterile disposables are used to collect  blood and these disposables can be used only one time it eliminates any chances of acquiring any disease from blood donation.</string>
+
+    <string name="faq6">How often can I donate Blood ?</string>
+    <string name="ans6">After every three –four months you can donate blood.</string>
+
+    <string name="faq7">What should I eat before blood-donation ?</string>
+    <string name="ans7">Anything that you normally eat at home., Eat a  light snacks and a cold drink  before blood donation  is sufficient.</string>
+
+    <string name="faq8">How much  time does it take to donate blood ?</string>
+    <string name="ans8">You will be asked to fill a donor form. Your medical history will be taken by a medical personnel and  a small drop of blood to check blood group as well as  Hb for anemia. After  simple medical screening process and being found medically fit to donate, you will be sent to blood collection  room. The actual blood collection from the donor takes about 7–10 minutes followed by a little rest and refreshments.</string>
+
+    <string name="faq9">What happens to blood I donate ?</string>
+    <string name="ans9">Your blood in the blood bank is processed and within 6 hours of Blood collection It  is separated into components viz. Red Cells, White Cells, Plasma &amp; Platelets. These Blood components are made available for the patients. By making blood components, all the useful parts of blood can be used and from one unit of blood four patients can be benefited.</string>
+
+    <string name="faq10">What is a “unit” of blood ?</string>
+    <string name="ans10">A unit is about 450 ml of donated blood. The average adult has between four and five litres of blood in his or her body, and can easily spare one unit.</string>
+
+
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragment.SearchFragment">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:singleSelection="true"
+            app:chipSpacingHorizontal="10dp"
+            app:checkedChip="@id/role_all"
+            android:layout_marginTop="10dp">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/role_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:textAppearance="@style/AppTheme.GenderChip"
+                    app:chipBackgroundColor="@drawable/chip_color"
+                    android:text="All" />
+
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:textAppearance="@style/AppTheme.GenderChip"
+                    app:chipBackgroundColor="@drawable/chip_color"
+                    android:text="Donors near me"/>
+
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:textAppearance="@style/AppTheme.GenderChip"
+                    app:chipBackgroundColor="@drawable/chip_color"
+                    android:text="Receivers near me"/>
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group_blood_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:singleSelection="true"
+            app:chipSpacingHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            app:checkedChip="@id/blood_all"
+            android:layout_marginBottom="20dp">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/blood_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@drawable/chip_color"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:textAppearance="@style/AppTheme.GenderChip"
+                    android:text="All" />
+
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@drawable/chip_color"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:textAppearance="@style/AppTheme.GenderChip"
+                    android:text="A+" />
+
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@drawable/chip_color"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:textAppearance="@style/AppTheme.GenderChip"
+                    android:text="B+"/>
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@drawable/chip_color"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:textAppearance="@style/AppTheme.GenderChip"
+                    android:text="AB+"/>
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@drawable/chip_color"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:textAppearance="@style/AppTheme.GenderChip"
+                    android:text="O+"/>
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@drawable/chip_color"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:textAppearance="@style/AppTheme.GenderChip"
+                    android:text="A-"/>
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@drawable/chip_color"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:textAppearance="@style/AppTheme.GenderChip"
+                    android:text="B-"/>
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@drawable/chip_color"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:textAppearance="@style/AppTheme.GenderChip"
+                    android:text="AB-"/>
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@drawable/chip_color"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:textAppearance="@style/AppTheme.GenderChip"
+                    android:text="O-"/>
+
+        </com.google.android.material.chip.ChipGroup>
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+</LinearLayout>
